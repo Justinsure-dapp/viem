@@ -1,5 +1,7 @@
 export type { Chain } from '../types/chain.js'
 
+export { bitTorrentDonau } from "./definitions/bitTorrentDonau.js"
+
 // biome-ignore lint/performance/noBarrelFile: entrypoint module
 export { abstractTestnet } from './definitions/abstractTestnet.js'
 export { acala } from './definitions/acala.js'
